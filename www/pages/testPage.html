@@ -1,0 +1,81 @@
+<html>
+<head> <title>test</title> </head>
+<body>
+    <H1 align=center> Pagina per testare i tag </H1>
+    <H3 align=center> Titolo </H3>
+
+    <div align=center >
+        <em> <H4> Codice </H4> </em>
+        <b>grassetto</b> <br>
+        <i>corsivo</i> <br>
+        <u>underline</u> <br>
+        <s>striked</s> <br>
+
+        <font size=1 color=red> prova in rosso </font>
+        <font size=2 color=green> prova in verde </font>
+    </div>
+
+    <font size=2 color=red> prova in rosso </font>
+    <div align=center> <code> int a = 0; int b = 0 </code> </div>
+
+    <hr>
+
+    <!-- paragarafo per i collegamenti link: -->
+    <p align=center >
+        <!-- semplice testo cliccabile -->
+        <a href="www.google.com" title="se clicchi vai sul sito"> vai a google </a>
+
+        <!-- semplice immagine  -->
+        <img src="https://cdn.mos.cms.futurecdn.net/DEpYy8jSdvD9dkvVDSPNoD.jpg" width=100 height=100 >
+
+        <!-- immagine cliccabile che reindirizza al sito in href -->
+        <a href="www.google.com" title="se clicchi vai sul sito">
+            <img src="https://cdn.mos.cms.futurecdn.net/DEpYy8jSdvD9dkvVDSPNoD.jpg" width=100 height=100 >
+        </a>
+    </p>
+
+    <hr>
+
+    <p align=left>
+        Lista ordinata: <br>
+        <ol type=A>
+            <li> uova </li>
+            <li> latte </li>
+        </ol>
+
+        Lista non ordinata: <br>
+        <ul type=circle>
+            <li> uova </li>
+            <li> latte </li>
+        </ul>
+
+    </p>
+
+    <hr>
+
+    <p>
+        <table border=1>
+            <tr align=center> <td> nome </td> <td> Cognome</td> </tr>
+            <tr align=center> <td>mario</td> <td>rossi </td></tr>
+        </table>
+    </p>
+
+    <hr>
+
+    <!-- Form con i tipi di pulsanti -->
+    <form action="script.php" method="GET">
+        <input type="text" name="CF" >  <input type="password" name="pass" > <br>
+        <input type="checkbox" name="a"> M
+        <input type="checkbox" name="a"> F
+
+        <!-- Il radio è esclusivo, ovvero, permette una sola scelta -->
+        <input type="radio" name="b"> 1
+        <input type="radio" name="b"> 2
+
+
+        <input type="submit" value="invia" >
+
+    </form>
+
+</body>
+</html>
