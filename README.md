@@ -1,6 +1,6 @@
 # DB&D
 
-Simple database to handle my campaigns, pg and dungeons for world's most famous role-playing game!
+Simple database and web pages to handle my campaigns, pg and dungeons for world's most famous role-playing game!
 
 ## Directories layout
 ```
